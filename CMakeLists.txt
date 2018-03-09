@@ -17,7 +17,34 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(DIRECTORY msg FILES
    PVA.msg
    BalloonInfo.msg
- )
+   TxId.msg
+   BaseTime.msg
+   TriggerTime.msg
+   ObservablesMeasurementTime.msg
+   GnssObservables.msg
+   GnssObservablesSegment.msg
+   NavigationSolution.msg
+   TransmitterInfo.msg
+   TransmitterInfoSegment.msg
+   StatusMessage.msg
+   Ephemeris.msg
+   Almanac.msg
+   Bitcontainer.msg
+   Info.msg
+   Status.msg
+   GPStoUTC.msg
+   Coda.msg
+   Radar.msg
+   RadarTarget.msg
+   RadarConfig.msg
+   Attitude2D.msg
+   Attitude3D.msg
+   SingleBaselineRTK.msg
+   MultiBaselineRTKAttitude2D.msg
+   MultiBaselineRTKAttitude3D.msg
+   Imu.msg
+   ImuConfig.msg
+)
 
 #Add service files
 add_service_files( FILES

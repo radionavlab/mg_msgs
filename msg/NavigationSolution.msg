@@ -1,0 +1,13 @@
+uint8 epochCounter
+float64 xval
+float64 yval
+float64 zval
+float64 deltatRxMeters
+float64 xvelocity
+float64 yvelocity
+float64 zvelocity
+float64 deltatRxDotMetersPerSecond
+BaseTime tSolution
+float32 horizontalSigmaMeters
+float32 verticalSigmaMeters
+uint8 solverResult

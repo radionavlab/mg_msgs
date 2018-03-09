@@ -1,0 +1,9 @@
+int32 WNref
+float64 A0
+float64 A1
+uint32 tot
+int8 delta_tls
+uint8 WNt
+uint8 WNlsf
+uint8 DN
+int8 delta_tlsf

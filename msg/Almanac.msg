@@ -1,0 +1,11 @@
+TxId txId
+float64 e
+float64 i0
+float64 OmegaDot
+float64 sqrtA
+float64 Omega0
+float64 omega
+float64 M0
+float64 af0
+float64 af1
+BaseTime toa

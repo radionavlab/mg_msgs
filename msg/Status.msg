@@ -1,0 +1,4 @@
+uint16 cpuPercentage
+uint16 cpuTemperature
+int16 imuTemperature
+uint16 msInSampleBuffer

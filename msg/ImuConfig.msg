@@ -1,0 +1,12 @@
+uint64 tIndexk
+float32 rangeMetersPerSecSq
+float32 rangeRadPerSec
+float32 lsbToMetersPerSecSq
+float32 lsbToRadPerSec
+float32 lsbToDegK
+float32 temperatureCenterDegC
+float32 accelerationBandwidthHz
+float32 angularRateBandwidthHz
+float32 measurementRateHz
+int64 sampleFreqNumerator
+int32 sampleFreqDenominator

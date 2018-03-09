@@ -1,0 +1,10 @@
+TxId txId
+uint8 signalType
+uint8 channel
+float64 thetahatk
+float64 pseudoRange
+float32 fpll
+float32 C_N0dB
+float32 phaseLockStatistic
+uint8 statusBitfield
+uint8 dllStage

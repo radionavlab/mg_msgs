@@ -1,0 +1,4 @@
+TxId txId
+float32 azimuthDeg
+float32 elevationDeg
+uint8 healthAndSystemBitfield

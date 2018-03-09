@@ -1,0 +1,17 @@
+float64 rx
+float64 ry
+float64 rz
+float64 rxRov
+float64 ryRov
+float64 rzRov
+BaseTime tSolution
+float32 deltRSec
+float32[] P
+uint32 nCov
+float32 azAngle
+float32 elAngle
+float32 azSigma
+float32 elSigma
+float32 testStat
+uint8 numDD
+uint8 bitfield
