@@ -10,12 +10,14 @@ project(mg_msgs)
 find_package(catkin REQUIRED COMPONENTS
   cmake_modules
   geometry_msgs
+  nav_msgs
   message_generation
   std_msgs
 )
 
 add_message_files(DIRECTORY msg FILES
    PVA.msg
+   GameState.msg
    BalloonInfo.msg
    TxId.msg
    BaseTime.msg
@@ -53,6 +55,7 @@ add_service_files( FILES
 
 generate_messages( DEPENDENCIES
   std_msgs
+  nav_msgs
   geometry_msgs
 )
 
