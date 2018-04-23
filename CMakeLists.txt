@@ -50,6 +50,7 @@ add_message_files(DIRECTORY msg FILES
 
 #Add service files
 add_service_files( FILES
+  SetQuadBool.srv
   updatePx4param.srv
 )
 
@@ -60,7 +61,9 @@ generate_messages( DEPENDENCIES
 )
 
 catkin_package(
+  CATKIN_DEPENDS message_runtime
 )
+
 
 ###########
 ## Build ##
