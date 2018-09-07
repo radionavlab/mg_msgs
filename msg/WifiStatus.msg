@@ -1,0 +1,11 @@
+string interface
+string  status
+float64 link_quality
+float64 signal_level
+float64 noise_level
+uint32 discarded_nwid
+uint32 discarded_crypt
+uint32 discarded_frag
+uint32 discarded_retry
+uint32 discarded_misc
+uint32 missed_beacon

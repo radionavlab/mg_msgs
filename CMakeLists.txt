@@ -46,6 +46,8 @@ add_message_files(DIRECTORY msg FILES
    MultiBaselineRTKAttitude3D.msg
    Imu.msg
    ImuConfig.msg
+   WifiStatus.msg
+   PingStatus.msg
 )
 
 #Add service files
