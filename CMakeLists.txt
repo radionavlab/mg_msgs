@@ -17,6 +17,8 @@ find_package(catkin REQUIRED COMPONENTS
 
 add_message_files(DIRECTORY msg FILES
    PVA.msg
+   PVATrajectory.msg
+   PVA_Stamped.msg
    GameState.msg
    BalloonInfo.msg
    TxId.msg
