@@ -1,0 +1,8 @@
+#goal definition
+mg_msgs/PVAJS_array flatStates
+---
+#result definition
+bool success
+---
+#feedback
+mg_msgs/PVAJS currentFlatState

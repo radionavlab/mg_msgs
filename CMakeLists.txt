@@ -60,6 +60,12 @@ add_service_files( FILES
   updatePx4param.srv
 )
 
+#Add action files
+add_action_files(
+  DIRECTORY action
+  FILES follow_PVAJS_trajectory.action
+)
+
 generate_messages( DEPENDENCIES
   std_msgs
   nav_msgs
