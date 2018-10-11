@@ -59,6 +59,7 @@ add_message_files(DIRECTORY msg FILES
 add_service_files( FILES
   SetQuadBool.srv
   updatePx4param.srv
+  minSnapStamped.srv
 )
 
 #Add action files
