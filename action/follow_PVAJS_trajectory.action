@@ -1,5 +1,10 @@
+# Inputs are flat states (position, velocity, acceleration, jerk, snap) and sampling Time. 
+# The action will publish a new reference for the quadrotor once every sampling time. Hence,
+# the flat states cannot be sampled in a non-uniform manner w.r.t. time.
+#--------------------------------------
 #goal definition
 mg_msgs/PVAJS_array flatStates
+float32 samplingTime
 ---
 #result definition
 bool success
