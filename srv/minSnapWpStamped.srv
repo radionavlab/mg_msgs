@@ -1,0 +1,11 @@
+# This service is used to call minimum snap trajectories with given waypoints assuming
+# zero initial velocity and zero final velocity
+# dt_flat_states if the sampling period required for the output flatStates
+# dt_out is a vector with the time between every two waypoints (dt_out is not related to dt_flat_states)
+# cost returns the integral of the two norm of snap throughout the trajectory
+nav_msgs/Path Waypoints
+std_msgs/Float32 dt_flat_states
+---
+mg_msgs/PVAJS_array flatStates
+std_msgs/Float32[] dt_out
+std_msgs/Float32 cost

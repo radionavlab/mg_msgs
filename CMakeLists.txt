@@ -22,6 +22,7 @@ add_message_files(DIRECTORY msg FILES
    PVA_Stamped.msg
    PVAJS.msg
    PVAJS_array.msg
+   PVAJ_request.msg
    GameState.msg
    BalloonInfo.msg
    TxId.msg
@@ -59,7 +60,8 @@ add_message_files(DIRECTORY msg FILES
 add_service_files( FILES
   SetQuadBool.srv
   updatePx4param.srv
-  minSnapStamped.srv
+  minSnapWpStamped.srv
+  minSnapWpPVAJ.srv
 )
 
 #Add action files
