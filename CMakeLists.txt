@@ -62,6 +62,7 @@ add_service_files( FILES
   updatePx4param.srv
   minSnapWpStamped.srv
   minSnapWpPVAJ.srv
+  SetInteger.srv
 )
 
 #Add action files
