@@ -63,6 +63,7 @@ add_service_files( FILES
   minSnapWpStamped.srv
   minSnapWpPVAJ.srv
   SetInteger.srv
+  RequestRelativePoseBatch.srv
 )
 
 #Add action files
