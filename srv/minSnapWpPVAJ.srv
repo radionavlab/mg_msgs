@@ -6,11 +6,13 @@
 # Note: It is currently impossible to set non-zero velocity/acceleration/jerk constraints to 
 # the first and last waypoint, these unfortunately are always zero 
 # (TODO: adapt the code to accept non-zero initial and final vel/acc/jerk)
+# traj_name is used for visualization purposes only
 mg_msgs/PVAJ_request[] PVAJ_array
 std_msgs/Float32 dt_flat_states
 float32 max_vel
 float32 max_acc
 float32 max_jerk
+string traj_name
 ---
 mg_msgs/PVAJS_array flatStates
 std_msgs/Float32[] dt_out
