@@ -64,6 +64,7 @@ add_service_files( FILES
   minSnapWpPVAJ.srv
   SetInteger.srv
   RequestRelativePoseBatch.srv
+  set_strings.srv
 )
 
 #Add action files
