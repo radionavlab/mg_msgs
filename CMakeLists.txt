@@ -54,6 +54,8 @@ add_message_files(DIRECTORY msg FILES
    ImuConfig.msg
    WifiStatus.msg
    PingStatus.msg
+   PVAYStamped.msg
+   PVAYStampedTrajectory.msg
 )
 
 #Add service files
