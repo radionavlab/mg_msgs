@@ -8,6 +8,5 @@ float32 time
 bool use_pos
 bool use_vel
 bool use_acc
-bool use_jerk
 bool use_yaw
 bool use_yaw_dot

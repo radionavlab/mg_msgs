@@ -11,6 +11,7 @@ std_msgs/Float32 dt_output
 std_msgs/String traj_name
 float32 max_vel
 float32 max_acc
+float32 max_jerk
 ---
 mg_msgs/PVA_array PVA_out
 std_msgs/Float32[] dt_segments
