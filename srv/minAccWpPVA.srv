@@ -1,0 +1,17 @@
+# This service is used to call minimum acceleration trajectories with fully constrained waypoints
+# dt_output is the sampling period required for the output PVA
+# dt_segments is a vector with the time between every two waypoints (dt_out is not related to dt_flat_states)
+# cost returns the integral of the two norm of acceleration throughout the trajectory
+# Note: It is currently impossible to set non-zero velocity/acceleration constraints to 
+# the first and last waypoint, these unfortunately are always zero 
+# (TODO: adapt the code to accept non-zero initial and final vel/acc/jerk)
+# traj_name is used for visualization purposes only
+mg_msgs/PVA_request[] PVA_array
+std_msgs/Float32 dt_output
+std_msgs/String traj_name
+float32 max_vel
+float32 max_acc
+---
+mg_msgs/PVA_array PVA_out
+std_msgs/Float32[] dt_segments
+std_msgs/Float32 cost
