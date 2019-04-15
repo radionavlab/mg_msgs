@@ -54,6 +54,10 @@ add_message_files(DIRECTORY msg FILES
    ImuConfig.msg
    WifiStatus.msg
    PingStatus.msg
+   PVA_request.msg
+   PVA_array.msg
+   Polynomial.msg
+   PolyPVA.msg
 )
 
 #Add service files
@@ -62,6 +66,7 @@ add_service_files( FILES
   updatePx4param.srv
   minSnapWpStamped.srv
   minSnapWpPVAJ.srv
+  minAccXYWpPVA.srv
   SetInteger.srv
   RequestRelativePoseBatch.srv
   set_strings.srv
@@ -69,8 +74,9 @@ add_service_files( FILES
 
 #Add action files
 add_action_files(
-  DIRECTORY action
-  FILES follow_PVAJS_trajectory.action
+  DIRECTORY action FILES 
+  follow_PVAJS_trajectory.action
+  follow_PolyPVA_XY_trajectory.action
 )
 
 generate_messages( DEPENDENCIES

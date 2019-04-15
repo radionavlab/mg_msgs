@@ -1,0 +1,13 @@
+# Inputs are states (position, velocity, acceleration) in X and Y directions characterized as a
+# sequence of polynomials
+# The action provides a feedback with the current state and time in the trajectory
+#--------------------------------------
+#goal definition
+mg_msgs/PolyPVA[] X
+mg_msgs/PolyPVA[] Y
+---
+#result definition
+bool success
+---
+#feedback
+mg_msgs/PVA currentState
