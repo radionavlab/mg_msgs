@@ -1,7 +1,5 @@
 # This service is used to call minimum acceleration trajectories with fully constrained waypoints
 # cost returns the integral of the two norm of acceleration throughout the trajectory
-# Note: It is currently impossible to set non-zero velocity/acceleration constraints to 
-# the first and last waypoint, these unfortunately are always zero 
 # (TODO: adapt the code to accept non-zero initial and final vel/acc/jerk)
 mg_msgs/PVA_request[] PVA_array
 float32 max_vel
