@@ -25,6 +25,7 @@ add_message_files(DIRECTORY msg FILES
    PVAJ_request.msg
    GameState.msg
    BalloonInfo.msg
+   BalloonStatus.msg
    TxId.msg
    BaseTime.msg
    TriggerTime.msg
